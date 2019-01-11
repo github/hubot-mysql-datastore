@@ -39,4 +39,4 @@ class MysqlDataStore extends DataStore {
   }
 }
 
-exports = MysqlDataStore
+module.exports = MysqlDataStore
