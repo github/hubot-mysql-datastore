@@ -21,7 +21,7 @@
   "dependencies": {
     "promise-mysql": "^3.3.1"
   },
-  "peer-dependencies": {
+  "peerDependencies": {
     "hubot": ">= 2.0.0"
   }
 }
