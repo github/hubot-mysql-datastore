@@ -1,0 +1,25 @@
+{
+  "name": "hubot-mysql-datastore",
+  "version": "0.1.0",
+  "description": "MySQL-backed implementation of Hubot datastore",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github/hubot-mysql-datastore.git"
+  },
+  "keywords": [
+    "hubot",
+    "github",
+    "datastore"
+  ],
+  "author": "Misty De Meo <mistydemeo@github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/github/hubot-mysql-datastore/issues"
+  },
+  "homepage": "https://github.com/github/hubot-mysql-datastore#readme",
+  "dependencies": {
+    "hubot": ">= 2.0.0",
+    "promise-mysql": "^3.3.1"
+  }
+}
