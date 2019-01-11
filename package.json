@@ -21,6 +21,9 @@
   "dependencies": {
     "promise-mysql": "^3.3.1"
   },
+  "devDependencies": {
+    "hubot": "mistydemeo/hubot#3a0e0bd18e26fe0a202948351229d37134206a2c"
+  },
   "peerDependencies": {
     "hubot": ">= 2.0.0"
   }
