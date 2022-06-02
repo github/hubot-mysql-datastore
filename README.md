@@ -16,8 +16,9 @@ module.exports = (robot) => {
   let user = process.env.HUBOT_DATASTORE_USER;
   let password = process.env.HUBOT_DATASTORE_PASSWORD;
   let database = process.env.HUBOT_DATASTORE_DATABASE;
+  let port = process.env.HUBOT_DATASTORE_PORT; // optional
 
-  robot.datastore = new MysqlDataStore(host, user, password, database, "utf8mb4");
+  robot.datastore = new MysqlDataStore(host, user, password, database, "utf8mb4", port);
 }
 ```
 
@@ -27,4 +28,4 @@ If you need any help with this package, please [open an issue](https://github.co
 
 ## Maintainer
 
-`hubot-mysql-datastore`'s primary author and maintainer is [@mistydemeo](https://github.com/mistydemeo).
+`hubot-mysql-datastore`'s primary author is [@mistydemeo](https://github.com/mistydemeo).
