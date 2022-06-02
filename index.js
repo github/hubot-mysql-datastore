@@ -9,15 +9,16 @@ let json_typecast = function(field, next) {
 }
 
 class MysqlDataStore extends DataStore {
-  constructor (host, user, password, database, charset) {
+  constructor (host, user, password, database, charset, port) {
     super();
     this.pool = mysql.createPool({
       connectionLimit: 2,
-      host: host,
-      user: user,
-      password: password,
-      database: database,
-      charset: charset,
+      host,
+      user,
+      password,
+      database,
+      charset,
+      port,
     });
   }
 
